@@ -49,6 +49,14 @@ const App = () => {
                     <Chatheader />
                     <Chatarea />
                 </div>
+                {/* Additional Styles for Mobile */}
+                <style jsx="true">{`
+                    @media (max-width: 768px) {
+                        .sidebar {
+                            width: 100%;
+                        }
+                    }
+                `}</style>
             </div>
         </div>
     );
